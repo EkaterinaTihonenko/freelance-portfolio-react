@@ -1,3 +1,5 @@
+import "./style.css";
+
 const Contacts = () => {
   return (
     <main className="section">
@@ -25,6 +27,10 @@ const Contacts = () => {
           </li>
         </ul>
       </div>
+      <div class="air air1"></div>
+      <div class="air air2"></div>
+      <div class="air air3"></div>
+      <div class="air air4"></div>
     </main>
   );
 };

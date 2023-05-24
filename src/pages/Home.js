@@ -1,4 +1,4 @@
-import Header from "./../components/header/Header";
+import Header from "../components/header/header";
 
 const Home = () => {
   return (
@@ -16,6 +16,15 @@ const Home = () => {
             </li>
           </ul>
         </div>
+        <div class="light x1"></div>
+        <div class="light x2"></div>
+        <div class="light x3"></div>
+        <div class="light x4"></div>
+        <div class="light x5"></div>
+        <div class="light x6"></div>
+        <div class="light x7"></div>
+        <div class="light x8"></div>
+        <div class="light x9"></div>
       </main>
     </>
   );

@@ -3,6 +3,7 @@ import "./styles/main.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
+import HeaderInt from "./components/headerInt/headerInt";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <ScrollToTop />
         <Navbar />
+        <HeaderInt />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
